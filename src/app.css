@@ -22,12 +22,23 @@ body {
   text-align: center;
 }
 
-main {
+.allCharacterCards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 header {
   background-color: #ffffff;
   text-align: center;
+}
+
+.headline {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.searchField {
+  margin: 1rem;
+  width: 300px;
 }
