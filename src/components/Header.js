@@ -3,7 +3,7 @@ import "./header.css";
 import { createElement } from "../utils/elements";
 
 function Header() {
-  const header = createElement("h3", {
+  const header = createElement("div", {
     innerText: "Rick and Morty",
     alt: "title",
     className: "headline",
